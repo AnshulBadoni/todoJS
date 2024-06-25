@@ -22,7 +22,7 @@ app.use(express.urlencoded({ extended: true }));
 const upload = multer();
 
 // MongoDB connection setup
-mongoose.connect("mongodb+srv://anshulbadoni359:yatogod360@todoapp.ic4k40z.mongodb.net/?retryWrites=true&w=majority&appName=todoapp", {
+mongoose.connect("your-url", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 });
