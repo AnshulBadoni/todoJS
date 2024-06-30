@@ -27,8 +27,6 @@ const upload = multer();
 //     useUnifiedTopology: true,
 // });
 mongoose.connect("mongodb+srv://anshulbadoni359:yatogod360@todoapp.ic4k40z.mongodb.net/?retryWrites=true&w=majority&appName=todoapp", {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
 });
 
 app.get("/", (req, res) => {
